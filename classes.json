@@ -1,0 +1,32 @@
+[  
+   {  
+      "id":8,
+      "text":"Rogues have little in common with each other. While some - maybe even the majority - are stealthy thieves, many serve as scouts, spies, investigators, diplomats, and simple thugs. Rogues are versatile, adaptable, and skilled at getting what others don't want them to get. While not equal to a fighter in combat, a rogue knows how to hit where it hurts, and a sneak attack can dish out a lot of damage. Rogues also seem to have a sixth sense when it comes to avoiding danger. Experienced rogues develop nearly magical powers and skills as they master the arts of stealth, evasion, and sneak attacks. In addition, while not capable of casting spells on their own, a rogue can sometimes 'fake it' well enough to cast spells from scrolls, activate wands, and use just about any other magic item.\n\n- Hit Die: d8.\n- Proficiencies:Proficient with rogue weapons and light armor. Rogues are not proficient with shields.\n- Skill Points (*4 at 1st level): 8 + Int Modifier."
+   },
+   {  
+      "id":7,
+      "text":"Rangers are skilled stalkers and hunters who make their home in the woods. Their martial skill is nearly the equal of the fighter, but they lack the latter's dedication to the craft of fighting. Instead, the ranger focuses his skills and training on a specific enemy - a type of creature he bears a vengeful grudge against and hunts above all others. Rangers often accept the role of protector, aiding those who live in or travel through the woods. His skills allow him to move quietly and stick to the shadows, especially in natural settings, and he also has special knowledge of certain types of creatures. Finally, an experienced ranger has such a tie to nature that he can actually draw on natural power to cast divine spells, much as a druid does, and like a druid he is often accompanied by animal companions.\n\nWARNING: To cast a spell, a ranger must have a Wisdom score of 10 + the spell's level. For example, to cast a 3rd-level spell, a ranger must have a Wisdom of 13.\n\n- Hit Die: d10.\n- Proficiencies: All simple and martial weapons, light and medium armor, and shields.\n- Skill Points (*4 at 1st level): 6 + Int Modifier.\n- Spellcasting: Ranger Spells. Divine (Wisdom based, armor-related chance of spell failure is ignored)."
+   },
+   {  
+      "id":30,
+      "text":"(PRESTIGE CLASS)\nThe assassin is a master of dealing quick, lethal blows. Assassins often function as spies, informants, killers for hire, or agents of vengeance. Their skill in a variety of dark arts allows them to carry out missions of death with shocking, terrifying precision. Rogues, monks and bards are ideal candidates to become assassins.\n\n- Hit Die: d6.\n- Proficiencies: Simple Weapons, Light Armor Proficiency.\n- Skill Points: 6 + Int Modifier.\n\nREQUIREMENTS:\n\nAlignment: Any evil.\nSkills: Hide 8 ranks, Move Silently 8 ranks.\n\nSPELLS: All spell-like abilities have a 2 minute cooldown.\n\nABILITIES:\n\nLevel\n1: Death Attack +1d6 - Special sneak attack that has a chance of paralyzing opponent.\n  Use Poison - Automatic success when coating a weapon with poison.\n  Assassinate - Damage bonus against selected target.\n2: Uncanny Dodge 1 - Retain dexterity bonus to armor class, even if flat-footed.\n  Ghostly Visage - As spell.\n  +1 Fortitude save vs. poison.\n3: Death Attack +2d6 - Death attack improves.\n  Use poison - +1 DC\n4: +2 Fortitude save vs. poison.\n5: Death Attack +3d6 - Death attack improves.\n  Uncanny Dodge 2 - +1 reflex saving throws.\n  Darkness - As spell.\n6: +3 Fortitude save vs. poison.\n  Use poison - +1 DC\n  Evasion\n7: Death Attack +4d6 - Death attack improves.\n  Invisibility - As spell.\n8: +4 Fortitude save vs. poison.\n9: Death Attack +5d6 - Death attack improves.\n  Improved Invisibility - As spell.\n10: Uncanny Dodge 3 - +2 reflex saving throws.\n  +5 Fortitude save vs. poison.\n  Use poison - +1 DC\n12: Defensive Roll\n13: Darkness spell now produces Ultravision\n14: Use poison - +1 DC\n15: Tactical Retreat - Invisibility spell also grants 50% movement increase\n16: Improved Evasion\n18: Use poison - +1 DC"
+   },
+   {
+	  "id":32,
+	  "name":"Divine Champion",
+	  "plural":"Divine Champions",
+	  "lower":"divine champion"
+   },
+   {
+	  "id":41,
+	  "name":"Knight",
+	  "plural":"Knights",
+	  "lower":"knight"
+   },
+   {
+	  "id":36,
+	  "name":"Earthkin Defender",
+	  "plural":"Earthkin Defenders",
+	  "lower":"earthkin defender"
+   }
+]

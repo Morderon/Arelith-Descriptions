@@ -1,0 +1,6 @@
+[
+   {  
+      "id":448,
+      "text":"Caster Level(s): Wizard / Sorcerer 6\nInnate Level: 6\nSchool: Evocation\nDescriptor(s):\nComponent(s): Verbal, Somatic\nRange: Long\nArea of Effect / Target: Gargantuan\nDuration: Instant\nAdditional Counter Spells:\nSave: None\nSpell Resistance: Yes\n\nA number of energy missiles (one per caster level but to a maximum of 20) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, one of the creatures will be hit with multiple missiles. A creature cannot be hit with more than half of the missiles. Each missile does 2d6 points of damage."
+   }
+]
