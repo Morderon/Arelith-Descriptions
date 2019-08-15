@@ -1,6 +1,332 @@
 [
-   {  
-      "id":491,
-      "text":"Type of Feat: General\nPrerequisite: 21st level, Dex 25+\nSpecifics: The character is able to cast Haste on himself as an instant action unlimited times per day. The effect will last 3 turns. The ability has a cooldown of 8 turns which can be reduced by 1 turn for every 6 levels of rogue.\nUse: Selected."
-   }
+  {
+      "id":2002,
+      "name":"Cancel Defensive Stance"
+  },
+  {
+      "id":2003,
+      "name":"Associate Tool",
+      "text":"Type of feat: general\nPrerequisite: Associate Use\n\nUse this feat to command your associates. Associates include animal companions, dominated creatures, familiars, henchmen, and summons.\n\nTo command an associate, you must first select it using the Associate feat. Alternately, target yourself to select all associates, or target a selected associate to deselect that associate. Selected associates will not move or attack unless commanded to.\n\nYou can command selected associates by selecting an action target with the this feat. The action they take depends on the type of target selected:\n\n* Move (Clicked on Ground)\nThe associate moves to the target location.\n\n* Attack (Clicked on Enemy)\nThe associate attacks the target.\n\n* Follow (Clicked on Party Member)\nThe associate follows the target as if the target were its master. Note that associates will not follow targets outside of their current area. To reset who an associate is following, issue a move command to the associate.\n\n* Interact: Door (Clicked on Door)\nThe associate does one of the following actions on the target, prioritizing the first relevant action: Disable Trap, Open Lock, Bash (if locked), Open/Close.\n\n* Interact: Placeable (Clicked on Placeable)\nThe associate does one of the following actions on the target, prioritizing the first relevant action: Disable Trap, Open Lock, Bash."
+  },
+  {
+      "id":2004,
+      "name":"Assassinate",
+      "text":"Type of feat: class\nPrerequisite: Assassin\n\nThe assassin marks a target to receive additional magic damage for up to 30 minutes. The increased damage is equal to assassin level plus int modifier and is of the. Int modifier contribution is capped at half the assassin's class level. This damage is not muliplied in the instance of a critical hit. The assassin may select a new target every 2 minutes for NPCs and every 10 minutes for PCs. Access to the -assassinate command is also gained."
+  },
+  {
+      "id":2005,
+      "spells":1504,
+      "iprp_spells":753,
+      "name":"Create Ammunition",
+      "text":"Type of feat: class\nPrerequisite: Ranger - Archer/Sniper Path, Weapon Focus in a throwing or projectile weapon.\n\nOnce per day, the ranger may create a bundle of projectile missiles and/or throwing weapons. This requires the ranger to have the associated weapon focus with the ammuntion type. The projectiles are of the following grades:\nLevel 1-4: Iron\nLevel 5-9: Steel\nLevel 10+: Damask"
+  },
+  {
+      "id":2006,
+      "spells":1505,
+      "iprp_spells":752,
+      "name":"Spell Clutch",
+      "text":"Type of feat: racial\nPrerequisite: Deep Imaskari and arcane class.\n\nOnce per day, Deep Imaskari's may refresh all arcane second level/circle and lower spells."
+  },
+  {
+      "id":2007,
+      "name":"Alternate Shape",
+      "text":"Type of feat: general\nPrerequisite: A racial shape, totem druid, or becoming a werewolf.\n\nTotem Shape: Change into your totem animal.\nRacial Shape: Shape change based off your subracial type.\nWerewolf Shape: Shape change to a werewolf, if available.\n\nAll alternate shapes are on a 90 second cooldown."
+  },
+  {
+      "id":2008,
+      "name":"Rakshasa Menu 1",
+      "text":"Type of feat: racial\nPrerequisite: Rakshasa.\n\nRakshasa's may use this ability to change their appearance. To change back to the rakshasa appearance select your current appearance."
+  },
+  {
+      "id":2009,
+      "name":"Rakshasa Menu 2",
+      "text":"Type of feat: racial\nPrerequisite: Rakshasa.\n\nRakshasa's may use this ability to change their appearance. To change back to the rakshasa appearance select your current appearance."
+  },
+  {
+      "id":2010,
+      "name":"Vampire Menu",
+      "text":"Type of feat: racial\nPrerequisite: Vampire.\n\nA vampire may use this ability to turn into a bat or a wolf. The vampire may also que a bite attack, offer themselves to thralls or other vampires, or feed from thralls or other vampires."
+  },
+  {
+      "id":2011,
+      "spells":1528,
+      "iprp_spells":754,
+      "name":"Balance",
+      "text":"Type of feat: class\nPrerequisite: Druid.\n\nAllows druids to cast a ritual that directly improves the balance of an area that is overrun.  The size of the effect scales with Druid levels."
+  },
+  {
+      "id":2012,
+      "spells":1529,
+      "iprp_spells":755,
+      "name":"Chaos Shield",
+      "text":"Type of feat: class\nPrerequisite: Wild Mage 9.\n\nWhen casting Chaos Shield the caster will be surrounded by a protective aura lasting 1 Round / Caster Level.  There is a 20% chance for Enemies entering the aura to be afflicted by a random negative Surge."
+  },
+  {
+      "id":"2013,2014,2015,2016,2017,2018",
+      "name":"Surge",
+      "text":"Type of feat: class\nPrerequisite: Wild Mage 1.\n\nSurge will make sure the next spell cast will always produce a Wild Surge. Wild Surges always replenish the last spell cast for the user. This feat gains an additional use at level 6 and every 6 levels after."
+  },
+  {
+      "id":2019,
+      "name":"Cambion polymorph",
+      "text":"Type of feat: racial\nPrerequisite: Cambion.\n\nThe cambion may change it's appearance into an imp (<10), an osyluth (10-19), or a pit fiend (20+). These shapes grant scaling spell resistance, fire immunity, poison immunity, regeneration, and damage reduction."
+  },
+  {
+      "id":2020,
+      "spells":1532,
+      "iprp_spells":756,
+      "name":"Detect Evil",
+      "text":"Type of feat: class\nPrerequisite: Paladin or Harper Paragon.\n\nDetects if evil is nearby. DC is 11 + Wisdom Modifier + Bonuses from Divination focuses."
+  },
+  {
+      "id":2021,
+      "spells":1533,
+      "iprp_spells":757,
+      "name":"Respite",
+      "text":"Type of feat: class\nPrerequisite: Healer 28.\n\nSpell Level: Healer 10\nInnate Level: 10\nSchool: Abjuration\nDescriptor(s):\nComponent(s): 5% Piety\nCasting Time: Instant\nRange: Personal\nArea of Effect / Target: 4.0 meters\nDuration: 9 Seconds\nAdditional Counter Spells:\nSave: Harmless\nSpell Resistance: No\n\nThe healer creates a zone that defies death itself. Creatures within the area of effect become immune to all forms of crowd control (except Timestop) and cannot be reduced to less than one hit point. When the spell expires, all allies within the area of effect are healed for Cleric Level * 5 points of damage."
+  },
+  {
+      "id":2022,
+      "name":"Pray",
+      "text":"Type of feat: general\nPrerequisite: Positive Hit Points and a Deity.\n\nPray to whichever god you worship to receive all sorts of fancy aid!"
+  },
+  {
+      "id":2023,
+      "spells":1535,
+      "iprp_spells":758,
+      "name":"Track",
+      "text":"Type of feat: class or racial\nPrerequisite: Wild or Wood Elf, Wild Dwarf, Forest Gnome, Ranger, or Harper Scout.\n\nDepending on a level check, displays creatures that spawn within the area as well as population control."
+  },
+  {
+      "id":2024,
+      "name":"Warlock - Fey",
+      "text":"Type of feat: class\nPrerequisite: Warlock\n\nSelect a damage type to use that damage type for your warlock blasts. You may also toggle off and on the eye glow for your currently selected damage type.\n\nLevel 1: Acid\nLevel 4: Electrical\nLevel 8: Positive\nLevel 12: Magic"
+  },
+  {
+      "id":2025,
+      "name":"Warlock - Fiend",
+      "text":"Type of feat: class\nPrerequisite: Warlock\n\nSelect a damage type to use that damage type for your warlock blasts. You may also toggle off and on the eye glow for your currently selected damage type.\n\nLevel 1: Fire\nLevel 4: Cold\nLevel 8: Negative\nLevel 12: Magic"
+  },
+  {
+      "id":400,
+      "text":"Type of Feat: General\nPrerequisite: Spell Focus.\nSpecifics: A character becomes even more adept with spells of a particular school of magic. The character gains a +4 bonus to the spell save DC for all spells of the chosen school.\nUse: Automatic. This feat may be selected multiple times, but the effects do not stack. It applies to a different school of magic in each case.\nArelith Additions: 1) Enables Golem Activation.\n2) Zoo spells grant an additional +1 to stat.\n3) Extends duration of Aura of Vitality to 3 rounds/level.\n4) Grants Access to the teleport spell at level 21\n\nSpell level: Any Caster, Character Level 21.\nInnate level: 10\nComponents: None required\nRange: short (8 meters)\nDuration: instant\nSave: none\nSpell resistance: no\n\nThe caster may target themselves or another creature to grant them access to the portal network. The targeted creature will only have access to their own attuned nexus points."
+  },
+  {
+      "id":610,
+      "text":"Type of Feat: Spell\nPrerequisite: 21st level, Spell Focus and Greater Spell Focus in the chosen school, ability to cast 9th level spells.\nSpecifics: The character gains a +6 to the Difficulty Class for all saving throws against spells from the chosen school of magic.\nUse: Automatic.\nArelith Additions: 1) Grants an an additional +2 to dispel checks for a total of +4 to dispel checks.\n2) Grants access to the ward and ward teleport spells\n\nWard:\n\nSpell level: cleric epic; druid epic; sorcerer/wizard epic \nInnate level: 10\nComponents: 5% piety if divine or 5 spell components if arcane\nRange: short (8 meters) \nArea of effect: small (2.5 meter radius)\nDuration: AoE: Hours based off half of all epic caster capable levels. Paralyze: 6 seconds.\nSave: Will\nSpell resistance: no\n\nThe caster creates a persistent area of effect. Any creature who enter this area of effect and fail the save are paralyzed.\n\nWard Teleport\n\nSpell level: cleric epic; druid epic; sorcerer/wizard epic \nInnate level: 10\nComponents: 5% piety if divine or 5 spell components if arcane\nRange: short (8 meters) \nDuration: AoE: Hours based off a quarter of all epic caster capable levels. \nSave: none\nSpell resistance: no\n\nThe caster wards the current area from access to the planar portal network."
+  },
+  {
+      "id":615,
+      "text":"Type of Feat: Spell\nPrerequisite: 21st level, Spell Focus and Greater Spell Focus in the chosen school, ability to cast 9th level spells.\nSpecifics: The character gains a +6 to the Difficulty Class for all saving throws against spells from the chosen school of magic.\nUse: Automatic.\nArelith Additions: 1) Grants access to the -project_image command. Type -project_image ? for more info.\n2) Grants access to projected clone spell\n\nProjected Clone:\n\nSpell level: cleric epic; druid epic; sorcerer/wizard epic \nInnate level: 10\nComponents: 5% piety if divine or 5 spell components if arcane\nRange: short (8 meters)\nDuration: Hours based on all epic caster capable levels.\nSave: none\nSpell resistance: no\n\nThe caster creates an illusionary clone of the target. The illusionary clone has the fighting capabilties of the caster."
+  },
+  {
+      "id":616,
+      "text":"Type of Feat: Spell\nPrerequisite: 21st level, Spell Focus and Greater Spell Focus in the chosen school, ability to cast 9th level spells.\nSpecifics: The character gains a +6 to the Difficulty Class for all saving throws against spells from the chosen school of magic.\nUse: Automatic.\nArelith Additions: 1) Grants an additional use of Create Greater Undead. This spell can be found within the Epic Spells Radial Menu."
+  },
+  {
+      "id":617,
+      "text":"Type of Feat: Spell\nPrerequisite: 21st level, Spell Focus and Greater Spell Focus in the chosen school, ability to cast 9th level spells.\nSpecifics: The character gains a +6 to the Difficulty Class for all saving throws against spells from the chosen school of magic.\nUse: Automatic.\nArelith Additions: 1) Zoo spells grant an additional +1, for a total of +2, to stat.\n2) Extends duration of Aura of Vitality to turns/level.\n3) Grants access to the create planar portal spell.\n\nSpell level: cleric epic; druid epic; sorcerer/wizard epic \nInnate level: 10\nComponents: 5% piety for divine or 5 spell components\nRange: short (8 meters) \nDuration: 5 real life minutes\nSave: none\nSpell resistance: no\n\nCreates a planar portal source."
+  },
+  {
+      "id":2026,
+      "name":"Palemaster Epic Spell Eligibility",
+      "text":"Type of Feat: Class\nPrerequisite: Palemaster 15\n\nWith this feat you may select epic spells on level up, as long as you meet all other requirements for the feat."
+  },
+  {
+      "id":2027,
+      "name":"Skill Focus (Ride)"
+  },
+  {
+      "id":2028,
+      "name":"Epic Skill Focus (Ride)"
+  },
+  {
+      "id":2029,
+      "name":"Greater Skill Affinity (Move Silently)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +4 racial bonus to Move Silently checks.\nUse: Automatic."
+  },
+  {
+      "id":2030,
+      "name":"Skill Affinity (Hide)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +2 racial bonus to Hide checks.\nUse: Automatic."
+  },
+  {
+      "id":2031,
+      "name":"Skill Affinity (Spot)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +2 racial bonus to Spot checks.\nUse: Automatic."
+  },
+  {
+      "id":2032,
+      "name":"Skill Affinity (Listen)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +2 racial bonus to Listen checks.\nUse: Automatic."
+  },
+  {
+      "id":2033,
+      "name":"Skill Affinity (Bluff)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +2 racial bonus to Bluff checks.\nUse: Automatic."
+  },
+  {
+      "id":2034,
+      "name":"Skill Affinity (Craft Trap)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +2 racial bonus to Craft Trap checks.\nUse: Automatic."
+  },
+  {
+      "id":2035,
+      "name":"Expert Skill Affinity (Bluff)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +8 racial bonus to Bluff checks.\nUse: Automatic."
+  },
+  {
+      "id":2036,
+      "name":"Greater Skill Affinity (Hide)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +4 racial bonus to Hide checks.\nUse: Automatic."
+  },
+  {
+      "id":2037,
+      "name":"Exceptional Skill Affinity (Listen)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +5 racial bonus to Listen checks.\nUse: Automatic."
+  },
+  {
+      "id":2038,
+      "name":"Exceptional Skill Affinity (Hide)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +5 racial bonus to Hide checks.\nUse: Automatic."
+  },
+  {
+      "id":2039,
+      "name":"Exceptional Skill Affinity (Move Silently)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +5 racial bonus to Move Silently checks.\nUse: Automatic."
+  },
+  {
+      "id":2040,
+      "name":"Greater Skill Affinity (Bluff)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +4 racial bonus to Bluff checks.\nUse: Automatic."
+  },
+  {
+      "id":2041,
+      "name":"Greater Warrior Discipline",
+      "text":"Type of Feat: Class\mPrerequisite: Fighter or Spellsword level 28.\n\nSpecifics: This feat grants a +10 class bonus to Discipline checks."
+  },
+  {
+      "id":2042,
+      "name":"Improved Keen Senses",
+      "text":"Type of Feat: Class and Racial\nPrerequisite: Rogue level 10 and Elf.\n\nSpecifics: This feat grants a +2 bonus to Spot and Listen checks."
+  },
+  {
+      "id":2043,
+      "name":"Sharp Alertness",
+      "text":"Type of Feat: Class\nPrerequisite: Rogue plus Harper Scout level 14.\n\nSpecifics: This feat grants a +2 bonus to Spot and Listen checks."
+  },
+  {
+      "id":2044,
+      "name":"Wary Alertness",
+      "text":"Type of Feat: Class\nPrerequisite: Rogue plus Harper Scout level 24.\n\nSpecifics: This feat grants a +5 bonus to Spot and Listen checks. Replaces Sharp Alertness."
+  },
+  {
+      "id":2045,
+      "name":"One With Shadow",
+      "text":"Type of Feat: Class\nPrerequisite: Shadowdancer level 1.\n\nSpecifics: This feat grants a +1 bonus to Hide checks for every Shadowdancer level."
+  },
+  {
+      "id":2046,
+      "name":"Wolf Senses",
+      "text":"Type of Feat: Class\nPrerequisite: Druid with Wolf Totem.\n\nSpecifics: This feat grants a +2 bonus to Spot, Hide and Move Silently checks."
+  },
+  {
+      "id":2047,
+      "name":"Panther Agility",
+      "text":"Type of Feat: ClassPrerequisite: Druid with Panther Totem.\n\nSpecifics: This feat grants a +4 bonus to Hide and Move Silently checks."
+  },
+  {
+      "id":2048,
+      "name":"Parrot Mimicry",
+      "text":"Type of Feat: ClassPrerequisite: Druid with Parrot Totem.\n\nSpecifics: This feat grants a +8 bonus to Perform checks."
+  },
+  {
+      "id":2049,
+      "name":"Eagle's Sight",
+      "text":"Type of Feat: Class\nPrerequisite: Druid with Eagle Totem\n\nSpecifics: This feat grants a +12 bonus to Spot checks."
+  },
+  {
+      "id":2050,
+      "name":"Raven's Insight",
+      "text":"Type of Feat: Class\nPrerequisite: Druid with Raven Totem\n\nSpecifics: This feat grants a +8 bonus to Listen and +10 bonus to Lore checks."
+  },
+  {
+      "id":2051,
+      "name":"Bat's Echolocation",
+      "text":"Type of Feat: Class\nPrerequisite: Druid with Bat Totem\n\nSpecifics: This feat grants a +12 bonus to Listen checks."
+  },
+  {
+      "id":2052,
+      "name":"Minor Warrior Discipline",
+      "text":"Type of Feat: Class\nPrerequisite: Druid with Bat Totem\n\nSpecifics: This feat grants a +5 bonus to Discipline checks."
+  },
+  {
+      "id":2053,
+      "name":"Yuan-ti Menu",
+      "text":"Type of Feat: Racial\nPrerequisite: Yuan-ti\n\nSpecifics: Yuan-ti's may use this ability to change their appearance. To change back to the human appearance select your current appearance."
+  },
+  {
+	  "id":2054,
+	  "spells":1559,
+	  "name":"Guard",
+	  "text":"Type of Feat: General\nPrerequisite: Be alive or undead.\n\nSpecifics: This feat allows you to protect a single nearby player character from attacks from other creatures."
+  },
+  {
+	  "id":2055,
+	  "name":"Troglodyte Stench",
+	  "text":"Type of Feat: Racial\nPrerequisite: Troglodyte.\n\nRange: Small\nArea of Effect / Target: Single\nDuration: At will.\nSave: 10+Constitution Mod+(Level/2)\nSpell Resistance: No\n\nThose afflicted suffer from -2 AB, Damage, Saving Throws, Abilities, and skills for 10 rounds."
+  },
+  {
+	  "id":2056,
+	  "name":"Weapon Focus (lance)"
+  },
+  {
+	  "id":2057,
+	  "name":"Improved Critical (lance)"
+  },
+  {
+	  "id":2058,
+	  "name":"Weapon Specialization (lance)"
+  },
+  {
+	  "id":2059,
+	  "name":"Overwhelming Critical (lance)"
+  },
+  {
+	  "id":2060,
+	  "name":"Epic Weapon Focus (lance)"
+  },
+  {
+	  "id":2061,
+	  "name":"Epic Weapon Specialization (lance)"
+  },
+  {
+	  "id":2062,
+	  "name":"Weapon Of Choice (lance)"
+  },
+  {
+	  "id":2063,
+	  "name":"Weapon Proficiency (Dwarven Waraxe)",
+	  "text":"Type of Feat: General\nSpecifics: This feat allows effective use of the dwarven waraxe.\nUse: Automatic."
+  },
+  {
+      "id":2064,
+      "name":"Dodge (Half-Elf)",
+      "text":"Type of Feat: Race\nPrerequisite: Half-Elf.\nRequired for: Mobility and Spring Attack.\nSpecifics: This Feat has no function and will be replaced with the real Dodge Feat when leaving the entry area. This feat satisfies feat requirements as if it were the Dodge feat."
+  },
+  {
+      "id":2065,
+      "name":"Power Attack (Half-Orc)",
+      "text":"Type of Feat: Race\nPrerequisite: Half-Orc.\nRequired for: Cleave, Improved Power Attack, Great Cleave, Divine Might and Divine Shield.\nSpecifics: This Feat has no function and will be replaced with the real Power Attack Feat when leaving the entry area. This feat satisfies feat requirements as if it were the Power Attack feat."
+  },
+  {
+      "id":2066,
+      "name":"Exceptional Skill Affinity (Intimidate)",
+      "text":"Type of Feat: Race\n\nSpecifics: This feat grants a +5 racial bonus to Intimidate checks.\nUse: Automatic."
+  },
+  {
+      "id":2067,
+      "name":"Ambidexterity (Half-Orc)",
+      "text":"Type of Feat: Race\nPrerequisite: Half-Orc.\nRequired for: Improved Two-Weapon Fighting.\nSpecifics: This Feat has no function and will be replaced with the real Ambidexterity Feat when leaving the entry area. This feat satisfies feat requirements as if it were the Ambidexterity feat."
+  }
 ]

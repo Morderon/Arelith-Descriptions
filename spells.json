@@ -1,6 +1,88 @@
 [
-   {  
+   {
       "id":448,
       "text":"Caster Level(s): Wizard / Sorcerer 6\nInnate Level: 6\nSchool: Evocation\nDescriptor(s):\nComponent(s): Verbal, Somatic\nRange: Long\nArea of Effect / Target: Gargantuan\nDuration: Instant\nAdditional Counter Spells:\nSave: None\nSpell Resistance: Yes\n\nA number of energy missiles (one per caster level but to a maximum of 20) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, one of the creatures will be hit with multiple missiles. A creature cannot be hit with more than half of the missiles. Each missile does 2d6 points of damage."
+   },
+   {
+      "id":1507,
+      "name":"Totem Shape"
+   },
+   {
+      "id":1508,
+      "name":"Racial Shape"
+   },
+   {
+      "id":1509,
+      "name":"Werewolf Shape"
+   },
+   {
+      "id":1526,
+      "name":"Feed"
+   },
+   {
+      "id":1527,
+      "name":"Offer"
+   },
+   {
+      "id":1545,
+      "name":"Eye Glow On/Off"
+   },
+   {
+      "id":1546,
+      "name":"Ward Menu",
+      "iprp_spells":759
+   },
+   {
+      "id":1547,
+      "iprp_spells":760,
+      "name":"Ward - Protect"
+   },
+   {
+      "id":1548,
+      "iprp_spells":761,
+      "name":"Ward - Teleport"
+   },
+   {
+      "id":1549,
+      "iprp_spells":762,
+      "name":"Project Image - Clone"
+   },
+   {
+      "id":1550,
+      "iprp_spells":763,
+      "name":"Teleport"
+   },
+   {
+      "id":1551,
+      "iprp_spells":764,
+      "name":"Teleport - Create"
+   },
+   {
+      "id":1504,
+      "altmessage":"<CUSTOM0> creates projectiles."
+   },
+   {
+      "id":446,
+      "text":"Caster Level(s): Druid 5\nInnate Level: 5\nSchool: Transmutation\nDescriptor(s): Fire\nComponent(s): Verbal, Somatic\nRange: Short\nArea of Effect / Target: Single\nDuration: 1 round / level\nAdditional Counter Spells:\nSave: None\nSpell Resistance: Yes\n\nThe caster causes a target to ignite into flame. Each round the target will suffer 2d6 (d6/3 Levels with  Greater Transmutation Focus) points of fire damage."
+   },
+   {
+      "id":1554,
+      "name":"Black Cobra"
+   },
+   {
+      "id":1555,
+      "name":"Cobra"
+   },
+   {
+      "id":1556,
+      "name":"Gold Cobra"
+   },
+   {
+      "id":1557,
+      "name":"Humanoid 1"
+   },
+   {
+      "id":1558,
+      "name":"Humanoid 2"
    }
 ]
